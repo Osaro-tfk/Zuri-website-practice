@@ -1,0 +1,191 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* styling the header */
+header{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    position: fixed;
+    background-color: #fff;
+    top: 0px;
+    padding-top: 5px;
+}
+.header-contents{
+    margin: auto;
+    color: #000;
+    display: flex;
+    max-width: 1440px;
+    width: 88%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.header-contents ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.header-contents ul a{
+    margin-right: 3rem;
+    text-decoration:none;
+}
+.header-contents ul a:hover{
+    border-bottom: 3px solid #e7332b;
+}
+.hire-button-header button{
+    background-color: #e7332b;
+    padding: 11px 35px;
+    border-radius: 0 0 8px 0;
+    border: 0px;
+    color:#fff;
+}
+
+/* styling the home */
+#home{
+    padding-top: 220px;
+    display: block;
+    max-width: 1440px;
+    width:80%;
+    margin: auto;
+}
+.home-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.home-contentBox1{
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    align-items: center;
+}
+.home-content1{
+    display: block;
+}
+.home-content1 p.home-title{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: 0.00938em;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+}
+div.line1{
+    display: block;
+    margin-left: 610px;
+    margin-top: -55px;
+}
+.home-content1 p.home-info{
+    display:block;
+    padding-top: 15px;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    font-style: normal;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #787878;
+}
+.home-content2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button.hire-button{
+    background-color: #e7332b;
+    border: none;
+    border-radius: 0 0 8px 0;
+    color: #fff;
+    margin-right: 15px;
+    padding: 11px 35px;
+    line-height: 19px;
+
+}
+button.pool-button{
+    background-color: #585858;
+    border: none;
+    border-radius: 0 0 8px 0;
+    color: #fff;
+    padding: 11px 35px;
+    line-height: 19px;
+}
+.home-contentBox2{
+    display: block;
+    margin: 0px;
+    flex-direction: row;
+}
+.home-image{
+    display: flex;
+    justify-content: flex-end;
+}
+.image1{
+    width: 50%;
+    padding-top: 60px;
+}
+div.line2{
+    margin-top: -172px;
+    position: absolute;
+    right: 0;
+    mix-blend-mode: soft-light;
+    display:block;
+}
+.line-2{
+    width:250px;
+}
+
+/* styling Impact */
+.impact-section1{
+    background-image: url(https://talent.zuri.team/static/media/bgsection2.063bd869082548bafa74.png);
+}
+/* Styling Why us */
+
+/* styling the footer */
+footer{
+    background-color: #000;
+    padding-top: 80px;
+    display: block;
+}
+.footer-container{
+    width: 92%;
+    margin: auto;
+    display:block;
+}
+.footer-content1{
+    display: flex;
+    justify-content: space-between;
+}
+div.social-media{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-content2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
